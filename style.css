@@ -27,6 +27,7 @@ nav{
     height: 100vh;
     width: 40.5vw;
     border: 3px solid rgb(30, 87, 70);
+    padding: 5px;
 }
 
 img{
@@ -35,7 +36,7 @@ img{
 }
 
 .first{
-  margin-left: 12rem;
+  margin-left: 27rem;
 }
 
 .chatsect{
@@ -56,12 +57,15 @@ img{
     width: 80vh;
     height: 6vh;
     padding: 8px;
+    margin-top: 1rem;
 
 }
 .chatsect input{
     border: none;
     font-weight: bold;
     font-size: x-large;
+    outline: none;
+   
 }
 
 #search{
@@ -69,4 +73,37 @@ img{
     height: 40px;
 }
 
+.but{
+    margin-top: 8px;
+}
 
+.All{
+    width: 3vw;
+    height: 3.8vh;
+    border-radius: 17px;
+    border: none;
+    font-weight: bold;
+    background: #b4e7cd;
+    color: rgb(36, 84, 36);
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.the-same{
+    width: 5vw;
+    height: 4vh;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    color: hsl(210, 4%, 39%);
+    cursor: pointer;
+    font-size: 23px;
+}
+.capture{
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+.capture img{
+    width: 50vw;
+    height: 65vh;
+}
